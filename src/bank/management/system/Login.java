@@ -9,8 +9,11 @@ public class Login extends JFrame {
         ImageIcon icon = new ImageIcon(ClassLoader.getSystemResource("icons/Bank_image.jpg"));
         JLabel myLabel = new JLabel(icon);
         add(myLabel);
+        Image myImage = icon.getImage().getScaledInstance(200, 200, Image.SCALE_DEFAULT);
+        ImageIcon icon2 = new ImageIcon(myImage);
+//We can place an ImageIcon inside Jlabel but we cant place an image and to solve this problem, we convert an image into an imageIcon
 
-        setSize(800, 800);
+        setSize(800, 400);
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocation(150, 70);
