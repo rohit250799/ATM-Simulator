@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63ccb71f-73d6-4930-bacd-fd0a09af36d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/bank/management/system/SignupOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bank/management/system/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/management/system/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SignupOne">
     <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bank.management.system.Login" />
       <module name="ATM Simulator" />
@@ -52,8 +52,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SignupOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bank.management.system.SignupOne" />
+      <module name="ATM Simulator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bank.management.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SignupOne" />
         <item itemvalue="Application.Login" />
       </list>
     </recent_temporary>
