@@ -70,7 +70,8 @@ public class Login extends JFrame implements ActionListener {
         setSize(800, 450);
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLocation(150, 70);
+        //setLocation(150, 70);
+        setLocationRelativeTo(null);
         setTitle("ATM Machine");
     }
 
@@ -83,7 +84,10 @@ public class Login extends JFrame implements ActionListener {
              first_textfield.setText("");
              second_textfield.setText("");
         }
-        if (ae.getSource() == signup_button){}
+        if (ae.getSource() == signup_button){
+             setVisible(false);
+             new SignupOne().setVisible(true);
+        }
    }
 
     public static void main(String[] args) {
